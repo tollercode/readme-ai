@@ -26,10 +26,6 @@ themes:
           - title: "Installation"
           - title: "Usage"
           - title: "Testing"
-      - title: "Roadmap"
-      - title: "Contributing"
-      - title: "License"
-      - title: "Acknowledgments"
 
   minimal:
     name: "Minimal Theme"
@@ -47,10 +43,6 @@ themes:
           - title: "⚙️ Installation"
           - title: "💻 Usage"
           - title: "🧪 Testing"
-      - title: "📈 Roadmap"
-      - title: "🤝 Contributing"
-      - title: "📜 License"
-      - title: "✨ Acknowledgments"
 
   oss:
     name: "Open Source Theme"
@@ -79,10 +71,6 @@ themes:
           - title: "📖 API Reference"
           - title: "📝 Tutorials"
           - title: "💡 Examples"
-      - title: "📈 Roadmap"
-      - title: "❤️ Contributors"
-      - title: "📜 License"
-      - title: "⭐ Acknowledgments"
 
   # -- Development Themes ------------------------------------
   api:
@@ -112,10 +100,6 @@ themes:
           - title: "📊 Monitoring"
           - title: "🔍 Tracing"
           - title: "📈 Metrics"
-      - title: "🛣️ Roadmap"
-      - title: "🤝 Contributing"
-      - title: "📜 License"
-      - title: "⭐ Acknowledgments"
 
   game:
     name: "Game Development Theme"
@@ -156,10 +140,6 @@ themes:
           - title: "📲 Deploy"
           - title: "🔄 Updates"
       - title: "📈 Analytics"
-      - title: "🛣️ Roadmap"
-      - title: "🤝 Contributing"
-      - title: "📜 License"
-      - title: "⭐ Acknowledgments"
 
   mobile:
     name: "Mobile Development Theme"
@@ -200,10 +180,6 @@ themes:
           - title: "📲 Deploy"
           - title: "🔄 Updates"
       - title: "📈 Analytics"
-      - title: "🛣️ Roadmap"
-      - title: "🤝 Contributing"
-      - title: "📜 License"
-      - title: "⭐ Acknowledgments"
 
   web:
     name: "Web Development Theme"
@@ -239,10 +215,6 @@ themes:
           - title: "🔄 CI/CD"
           - title: "📊 Monitoring"
           - title: "🔒 Security"
-      - title: "🛣️ Roadmap"
-      - title: "🤝 Contributing"
-      - title: "📜 License"
-      - title: "⭐ Acknowledgments"
 
   # -- Infrastructure Themes ------------------------------------
   cloud:
@@ -279,10 +251,6 @@ themes:
           - title: "📝 Logging"
           - title: "🔄 CI/CD"
           - title: "⚠️ Alerts"
-      - title: "🛣️ Roadmap"
-      - title: "🤝 Contributing"
-      - title: "📜 License"
-      - title: "⭐ Acknowledgments"
 
   iot:
     name: "IoT Theme"
@@ -315,10 +283,6 @@ themes:
           - title: "📥 Collection"
           - title: "💾 Storage"
           - title: "📈 Analysis"
-      - title: "🛣️ Roadmap"
-      - title: "🤝 Contributing"
-      - title: "📜 License"
-      - title: "⭐ Acknowledgments"
 
   # -- Data Themes ------------------------------------
   data:
@@ -344,10 +308,6 @@ themes:
           - title: "📊 Analysis"
           - title: "📈 Visualization"
       - title: "📊 Results"
-      - title: "📈 Roadmap"
-      - title: "🤝 Contributing"
-      - title: "📜 License"
-      - title: "⭐ Acknowledgments"
 
   ml:
     name: "Machine Learning Theme"
@@ -383,10 +343,6 @@ themes:
           - title: "📊 Monitoring"
           - title: "🔄 Retraining"
       - title: "📊 Results"
-      - title: "🛣️ Roadmap"
-      - title: "🤝 Contributing"
-      - title: "📜 License"
-      - title: "⭐ Acknowledgments"
 
   # -- Security Themes ------------------------------------
   cyber:
@@ -422,10 +378,6 @@ themes:
           - title: "📈 Analytics"
           - title: "🚨 Alerts"
           - title: "📝 Logging"
-      - title: "🛣️ Roadmap"
-      - title: "🤝 Contributing"
-      - title: "📜 License"
-      - title: "⭐ Acknowledgments"
 
   # -- Geometric Themes ------------------------------------
   ascension:
@@ -444,10 +396,6 @@ themes:
           - title: "② Installation"
           - title: "③ Usage"
           - title: "④ Testing"
-      - title: "🔳 Roadmap"
-      - title: "🔲 Contributing"
-      - title: "◼️ License"
-      - title: "✨ Acknowledgments"
 
   harmony:
     name: "Geometric Harmony Theme"
