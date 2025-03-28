@@ -21,6 +21,7 @@ class LLMProviders(str, Enum):
     GEMINI = "gemini"
     OLLAMA = "ollama"
     OPENAI = "openai"
+    AZUREAI = "azureai"
     OFFLINE = "offline"
 
 

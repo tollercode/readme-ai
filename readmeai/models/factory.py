@@ -4,6 +4,7 @@ from readmeai.config.settings import ConfigLoader
 from readmeai.core.errors import UnsupportedServiceError
 from readmeai.extractors.models import RepositoryContext
 from readmeai.models.anthropic import AnthropicHandler
+from readmeai.models.azureai import AzureAIHandler
 from readmeai.models.base import BaseModelHandler
 from readmeai.models.enums import LLMProviders
 from readmeai.models.gemini import GeminiHandler
@@ -21,6 +22,7 @@ class ModelFactory:
         LLMProviders.GEMINI.value: GeminiHandler,
         LLMProviders.OLLAMA.value: OpenAIHandler,
         LLMProviders.OPENAI.value: OpenAIHandler,
+        LLMProviders.AZUREAI.value: AzureAIHandler,
         LLMProviders.OFFLINE.value: OfflineHandler,
     }
 
