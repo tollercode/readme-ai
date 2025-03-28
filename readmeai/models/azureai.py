@@ -4,8 +4,6 @@ import os
 from typing import Any
 
 import aiohttp
-from azure.ai.inference import ChatCompletionsClient
-from azure.core.credentials import AzureKeyCredential
 from readmeai.config.settings import ConfigLoader
 from readmeai.extractors.models import RepositoryContext
 from readmeai.models.base import BaseModelHandler
@@ -37,12 +35,9 @@ class AzureAIHandler(BaseModelHandler):
         self.resource = self.config.llm.resource
         self.top_p = self.config.llm.top_p
 
-        if os.getenv("OPENAI_API_KEY") is None:
-                raise ValueError("OpenAI API key not set in environment.")
-        self.client = ChatCompletionsClient(
-            endpoint=f"{self.base_url}{self.resource}",
-            credential=AzureKeyCredential(os.getenv("OPENAI_API_KEY")),
-        )
+
+        self.url=f"{self.base_url}{self.resource}",
+
 
         self.api_key = os.getenv("OPENAI_API_KEY")
         if self.api_key is None:
