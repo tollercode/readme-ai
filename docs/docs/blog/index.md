@@ -1,5 +1,0 @@
-# Blog
-
-> ✨ coming soon ...
-
----

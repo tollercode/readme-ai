@@ -194,10 +194,6 @@ class ThemeManager:
                                     Section(title="Testing"),
                                 ],
                             ),
-                            Section(title="Roadmap"),
-                            Section(title="Contributing"),
-                            Section(title="License"),
-                            Section(title="Acknowledgment"),
                         ],
                     )
                 }

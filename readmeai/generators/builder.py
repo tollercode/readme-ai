@@ -99,10 +99,6 @@ class MarkdownBuilder:
             "Installation",
             "Usage",
             "Testing",
-            "Contributing",
-            "Roadmap",
-            "License",
-            "Acknowledgment",
         ]
         headers = {}
         for header in base_headers:
