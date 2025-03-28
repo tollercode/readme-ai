@@ -212,17 +212,6 @@ class MarkdownBuilder:
             # -- QUICKSTART GUIDE ----------------------------
             f"## {self.theme_manager.apply_theme_to_section('Getting Started')}\n\n{self.quickstart_guide}",
             self.thematic_break,
-            # -- ROADMAP ------------------------------------
-            f"## {self.theme_manager.apply_theme_to_section('Roadmap')}\n\n{self.md.roadmap}",
-            self.thematic_break,
-            # -- CONTRIBUTING --------------------------------
-            f"## {self.theme_manager.apply_theme_to_section('Contributing')}\n\n{self.contributing_guide}",
-            self.thematic_break,
-            # -- LICENSE ------------------------------------
-            f"## {self.theme_manager.apply_theme_to_section('License')}\n\n{self.license}",
-            self.thematic_break,
-            # -- ACKNOWLEDGMENTS -----------------------------
-            f"## {self.theme_manager.apply_theme_to_section('Acknowledgment')}\n\n{self.acknowledgment}",
             # -- FOOTER -------------------------------------
             self.md.return_to_top_div,
             "\n",
