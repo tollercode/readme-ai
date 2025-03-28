@@ -36,7 +36,7 @@ class AzureAIHandler(BaseModelHandler):
         self.top_p = self.config.llm.top_p
 
 
-        self.url=f"{self.base_url}{self.resource}",
+        self.url=f"{self.base_url}{self.resource}"
 
 
         self.api_key = os.getenv("OPENAI_API_KEY")
